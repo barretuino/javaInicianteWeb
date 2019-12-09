@@ -1,0 +1,42 @@
+<style type="text/css">
+#menu {
+border:none;
+margin: 0;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+#menu li {
+list-style: none;
+margin: 0;
+display: inline;
+}
+#menu li a {
+padding: 5px;
+margin:0;
+border-top: 2px solid #FF3300;
+border-bottom: 2px solid #FF3300;
+background: #333333;
+text-decoration: none;
+}
+#menu li a:link {
+color: #fff;
+}
+#menu li a:hover {
+background: #FFFFFF;
+color: #000000;
+border-color: #000000;
+}
+table.comBordaComplexa {     
+border-collapse: collapse; 
+background: #FFFFF0;     
+border: dashed red 1px; 
+}   
+table.comBordaComplexa td {
+border: 1px dotted blue; 
+}
+table.comBordaComplexa th {
+border: 1px solid blue;     
+border-bottom: 2px solid green;     
+background: #F0FFF0; 
+} 
+
+</style>

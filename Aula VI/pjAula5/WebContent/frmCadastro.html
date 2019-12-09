@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="menu.css" /> 
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=Cp1252">
+<title>Cadastro de Clientes</title>
+</head>
+<body>
+<ul id="menu">
+<li>
+<a href="javascript:window.history.go(-1)">Voltar</a>
+</li>
+</ul>
+<form method="POST" action="svlCadastrar">
+<table>
+<tr><td align="center" width="122"><b>CPF:</b></td>
+<td align="left"><input type="text" name="cpf" size="11" maxlength="11"><font color="red">*</font></td></tr>
+<tr><td align="center" width="122"><b>Nome:</b></td>
+<td align="left"><input type="text" name="nome" size="40" maxlength="40"></td>
+<td align="center" width="122"><b>Sexo:</b></td>
+<td align="left"><select name="sexo">
+<option value="0" selected>Masculino</option>
+<option value="1">Feminino</option>
+</select></td></tr>
+<tr><td align="center" width="122"><b>Endere&ccedil;o:</b></td></tr>
+<tr><td align="center" width="122"><b>Rua:</b> </td>
+<td align="left"><input type="text" name="endRua" size="40" maxlength="40"></td>
+<td align="center" width="122"><b>N.:</b> </td>
+<td align="left"><input type="text" name="endNumero" size="5" maxlength="5"></td></tr>
+<tr><td align="center" width="122"><b>Bairro:</b> </td>
+<td align="left"><input type="text" name="endBairro" size="40" maxlength="40"></td>
+<td align="center" width="122"><b>Complemento:</b> </td>
+<td align="left"><input type="text" name="endComplemento" size="40" maxlength="40"></td></tr>
+<tr><td align="center" width="122"><b>Cidade</b> </td>
+<td align="left"><input type="text" name="endCidade" size="40" maxlength="40"></td>
+<td align="center" width="122"><b>UF:</b></td>
+<td align="left"><select name="endUF">
+<option value="0">Selecione o Estado</option>
+<option value="AC">Acre</option>
+<option value="AL">Alagoas</option>
+<option value="AP">Amapá</option>
+<option value="AM">Amazonas</option>
+<option value="BA">Bahia</option>
+<option value="CE">Ceará</option>
+<option value="DF">Distrito Federal</option>
+<option value="ES">Espirito Santo</option>
+<option value="GO">Goiás</option>
+<option value="MA">Maranhão</option>
+<option value="MS">Mato Grosso do Sul</option>
+<option value="MT">Mato Grosso</option>
+<option value="MG">Minas Gerais</option>
+<option value="PA">Pará</option>
+<option value="PB">Paraíba</option>
+<option value="PR">Paraná</option>
+<option value="PE">Pernambuco</option>
+<option value="PI">Piauí</option>
+<option value="RJ">Rio de Janeiro</option>
+<option value="RN">Rio Grande do Norte</option>
+<option value="RS">Rio Grande do Sul</option>
+<option value="RO">Rondônia</option>
+<option value="RR">Roraima</option>
+<option value="SC">Santa Catarina</option>
+<option value="SP" selected>São Paulo</option>
+<option value="SE">Sergipe</option>
+<option value="RO">Tocantins</option>
+</select></td></tr>
+<tr><td align="left" width="122">
+<p align="center">&nbsp;</p></td>
+<td align="left"><p align="center"><input type="submit" value="Enviar"> 
+<input type="button" value="Pesquisar" onClick="open('frmPesquisa.html', 'new', 
+'width=400,height=150,toolbar=no,location=yes,directories=no,status=no,menubar=no,scrollbar=no,resizable=no, window.outerWidth=80, window.outerHeight=600, moveTo(800,500)')" name="Pesquisar">
+<input type="reset" value="Limpar"></p></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
